@@ -1,0 +1,65 @@
+body {
+	font-family: azo-sans-web, sans-serif;
+	font-weight: 200;
+	font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-stretch: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+}
+header {
+	padding: 2% 1% 0% 2%;
+	position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100px;
+  z-index: 10;
+  border-bottom: .5px lightgray solid;
+}
+
+#logo-container {
+	position: absolute;
+  top: 45px;
+  left: 48px;
+  width: 120px;
+
+}
+
+#header {
+	margin: 32px 24px;
+	position: absolute;
+  top: 38px;
+  left: 166px;
+  width: 300px;
+  font-size: 1.5em;
+}
+#logo-container img{
+	width: 100%;
+}
+
+#gh-container {
+	width: 15%;
+	position: absolute;
+	right: 8px;
+}
+
+#gh-container p {
+	width: 62%;
+	display: inline-block;
+	font-weight: 100;
+	margin-top: 50px;
+}
+
+#gh-container svg {
+	display: inline-block;
+}
+
+#gh-container a {
+	text-decoration: none;
+	color: black;
+}

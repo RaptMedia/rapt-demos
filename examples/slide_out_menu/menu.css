@@ -1,0 +1,73 @@
+
+/* Video styles */
+#player-wrapper{
+	width: 100%;
+}
+
+#rapt-container{
+ 	position: relative;
+ 	height: 0;
+ 	overflow: hidden;
+ 	padding-bottom: 56%;
+}
+
+#rapt-container iframe{
+	position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Slideout styles */
+
+#rapt-overlay {
+	background: rgba(0,0,0,.8);
+	font-family: Lato, Arial, san-serif;
+}
+
+/* Menu styles */
+#rapt-overlay h1{
+	font-weight: 400;	
+	color: white;
+	font-size: 2.25vw;
+	margin: 16px 5px;
+	text-align: center;
+}
+
+#rapt-node-list {
+	text-align: left;
+}
+#rapt-node-list a {
+	color: white;
+	box-shadow: 0 4px 2px -2px gray;
+		-webkit-box-shadow: 0 4px 2px -2px gray;
+	font-size: 2vw; 
+	font-style: italic;
+	word-wrap: normal;
+	text-decoration: none;
+	cursor: pointer;
+	display: block;
+	padding: 3% 1%;
+	padding-left:13%;
+	width: 85%;
+	transition: all 1s;
+	-webkit-transition: all .5s;
+}
+
+#rapt-node-list a:first-child {
+	margin-top: 10%;
+	border-top: darkgray 1px solid;
+}
+	
+
+#rapt-node-list a:hover{
+	color: #99f7ed !important;
+	background-color: #535354;
+}
+
+.active {
+	color: #a2d8d3 !important;
+}
+
+/* Custom styles */
